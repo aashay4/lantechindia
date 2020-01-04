@@ -41,7 +41,7 @@ app.post('/api/note/create', (req, res) => {
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: '"Contact Us Form Filled 👻" <aashay.trivedi1@gmail.com>', // sender address
-    to: 'texttobinary4@gmail.com', // list of receivers
+    to: 'jayesh@lantechinfocom.co.in', // list of receivers
     subject: "Lantechinfocom.co.in Inquiry", // Subject line
     text: "Below is the information filled by the user on Lantechinfocom.co.in", // plain text body
     html: output // html body
