@@ -102,7 +102,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="https://static.wixstatic.com/media/34a2ac_0407d58f350e41dc9e34c468f19fb088~mv2_d_6000_4000_s_4_2.png/v1/fill/w_600,h_398,al_c,q_80,usm_0.66_1.00_0.01/34a2ac_0407d58f350e41dc9e34c468f19fb088~mv2_d_6000_4000_s_4_2.webp" alt="Structured Cabling" style="width:100%">
+        <img src="http://www.fiber-optic-transceiver-module.com/wp-content/uploads/2018/10/%E5%BD%B1%E6%A3%9A%E6%8B%8D%E6%91%84-3328_%E7%9C%8B%E5%9B%BE%E7%8E%8B%E5%95%8A.jpg" alt="Structured Cabling" style="width:100%">
         <div class="w3-container">
           <h3>Structured Cabling</h3>
           <p class="w3-opacity">Structured Cabling</p>
@@ -512,7 +512,7 @@ export default {
       let data = { networkmigra: this.networkmigra, email: this.email, phone: this.phone, question: this.question }
       createNote(data)
       .then(response => {
-        return response; 
+        return response;
 
       })
       .catch(err => alert(err.message));
