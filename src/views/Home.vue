@@ -513,7 +513,6 @@ export default {
       createNote(data)
       .then(response => {
         return response;
-
       })
       .catch(err => alert(err.message));
     }
