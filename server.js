@@ -10,8 +10,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 // retrieves all the notes
 // create a new note
+app.get('/', (req, res) => {
+  res.send("fucj");
+});
 app.post('/api/note/create', (req, res) => {
   console.log(req.body);
+  res.send("fucj");
   const output = `<p>A new inquiry</p>
                   <h3>Contact Details</h3>
                   <ul>
