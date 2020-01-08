@@ -12,6 +12,7 @@ app.use(cors());
 // create a new note
 app.get('/', (req, res) => {
   res.send("fucj");
+  console.log("fuck!!!");
 });
 app.post('/api/note/create', (req, res) => {
   console.log(req.body);
