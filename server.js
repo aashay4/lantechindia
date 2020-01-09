@@ -5,9 +5,11 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const nodemailer = require("nodemailer");
 
+const PORT = process.env.PORT || 5000;
+
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
 // retrieves all the notes
 // create a new note
 app.get('/', (req, res) => {
@@ -63,6 +65,6 @@ app.post('/api/note/create', (req, res) => {
 main().catch(console.error);
 });
 
-const PORT = 5000;
+
 app.listen(PORT);
 console.log('api runnging on port ' + PORT + ': ');
