@@ -456,17 +456,16 @@
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 9825026049</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: jayesh@lantechinfocom.co.in</p>
     <br>
-    <form action="" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><input class="w3-input w3-border" v-model="networkmigra" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" v-model="email" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" v-model="question" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" v-model="phone" type="text" placeholder="Message" required name="Message"></p>
       <p>
-        <button class="w3-button w3-black" type="submit">
+        <button @click="industrial()" class="w3-button w3-black">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
-    </form>
+
     <!-- Image of location/map -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14687.892060568312!2d72.5715469!3d23.024763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24502f086901e018!2sLantech%20Infocom!5e0!3m2!1sen!2sin!4v1577540870562!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
   </div>
