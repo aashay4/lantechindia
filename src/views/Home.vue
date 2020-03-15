@@ -491,6 +491,17 @@
 //import HelloWorld from '@/components/HelloWorld.vue'
 import { createNote }  from '../repository'
 export default {
+  metaInfo: {
+       title: 'Computer networking company | Contact for networking services',
+       meta: [
+
+         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+         {name: 'description', content: 'We provide computer networking services. Lantech Infocom is a well-known computer networking company which has done around 500 computer networking projects.'}
+       ],
+       link: [
+      {rel: 'canonical', href: 'http://lantechinfocom.co.in/'}
+    ]
+     },
   name: 'home',
   components: {
   },
