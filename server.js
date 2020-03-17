@@ -13,12 +13,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // retrieves all the notes
 // create a new note
 app.get('/', (req, res) => {
-  res.send("fucj");
-  console.log("fuck!!!");
-});
+  console.log("got");
+  });
 app.post('/api/note/create', (req, res) => {
-  console.log(req.body);
-  res.send("fucj");
   const output = `<p>A new inquiry</p>
                   <h3>Contact Details</h3>
                   <ul>
@@ -38,7 +35,7 @@ app.post('/api/note/create', (req, res) => {
     service: 'Gmail',
     auth: {
         user: 'aashay.trivedi1@gmail.com',
-        pass: 'Blue_shark99090'
+        pass: 'aashaytrivedi2'
     },
     tls:{
         rejectUnauthorized: false
