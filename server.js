@@ -35,7 +35,7 @@ app.post('/api/note/create', (req, res) => {
     service: 'Gmail',
     auth: {
         user: 'aashay.trivedi1@gmail.com',
-        pass: 'blur_shark9898'
+        pass: 'aashaytrivedi2'
     },
     tls:{
         rejectUnauthorized: false
