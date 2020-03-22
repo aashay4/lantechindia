@@ -102,7 +102,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="http://www.fiber-optic-transceiver-module.com/wp-content/uploads/2018/10/%E5%BD%B1%E6%A3%9A%E6%8B%8D%E6%91%84-3328_%E7%9C%8B%E5%9B%BE%E7%8E%8B%E5%95%8A.jpg" alt="Structured Cabling" style="width:100%">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUj3pqAnDZw3Wmr6FFC-obpvFSqX5qD2Fcp_Yu6iY6293tve3r" alt="Structured Cabling" style="width:100%">
         <div class="w3-container">
           <h3>Structured Cabling</h3>
           <p class="w3-opacity">Structured Cabling</p>
