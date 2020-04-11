@@ -2,20 +2,24 @@
   <div>
   <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <router-link to="/"><a class="w3-bar-item w3-button w3-wide"><img src="../assets/logo.png" style="height:37px; width:37px"></a></router-link>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#services" class="w3-bar-item w3-button"><i class="fa fa-server"></i> SERVICES</a>
-      <a href="#clients" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CLIENTS</a>
-      <a href="#packages" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PACKAGES</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-    </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
+    <div>
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" v-on:click='isclose = !isclose'>
       <i class="fa fa-bars"></i>
     </a>
+  </div>
+    <div class="">
+      <a href="tel:9426527612" class="w3-bar-item w3-button w3-right"><i class="fa fa-phone fa fa-phone fa-fw w3-xxlarge"></i> CALL NOW</a>
+    </div>
+    <div class="w3-hide-small" style="margin-left: 20%">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#services" class="w3-bar-item w3-button"><i class="fa fa-server"></i> NETWORKING SERVICES</a>
+      <a href="#clients" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CLIENTS</a>
+      <a href="#oservices" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> OTHER SERVICES</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
   </div>
 </div>
 
@@ -25,22 +29,26 @@
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
   <a href="#clients" onclick="w3_close()" class="w3-bar-item w3-button">CLIENTS</a>
-  <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button">PACKAGES</a>
+  <a href="#oservices" onclick="w3_close()" class="w3-bar-item w3-button">OTHER SERVICES</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="tel:9426527612" onclick="w3_close()" class="w3-bar-item w3-button">Call Now</a>
 </nav>
 
 <!-- Header with full-height image -->
-<header class="w3-display-container w3-wide" id="home">
-    <img class="w3-image" src="../assets/Server-Room.jpg" alt="Lantech Infocom" width="1600" height="1060">
+
+
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="" src="../assets/Server-Room.jpg" alt="Lantech Infocom" width="100%" height="650">
     <div class="w3-display-left w3-padding-large">
-      <h2 class="w3-text-white w3-left">Lantech Infocom</h2><br><br><br>
-      <h1 class="w3-xlarge w3-text-white w3-hide-small"><b>Get the best network services from the most experienced company.</b></h1>
-      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('contact4').style.display='block'">Contact Today</button></h6>
+      <h1 class="w3-text-white">Lantech Infocom</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Best Computer Networking Company</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('contact4').style.display='block'">Contact Us</button></h6>
     </div>
   </header>
 
+
 <!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
+<div class="w3-container" style="padding:16px" id="about">
   <h3 class="w3-center">ABOUT THE COMPANY</h3>
   <p class="w3-center w3-large">Key features of our company</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
@@ -68,30 +76,29 @@
 </div>
 
 <!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
+<div class="w3-container w3-light-grey" style="padding:12px 16px">
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h3>About Our Company</h3>
-      <p>Lantech Infocom was established in the year 1996. It has been around the corner since hubs era. It has the dedicated
-              team of various developers and technicians who always look to match a client's expectations. The team loves challenges and
-              do every task with enthusiasm. The hunger for the excellence has made Lantech Infocom one of the most recommended organizations
-              of Gujarat.<br><br>Click to explore our work.</p>
+      <p>Lantech Infocom was established in the 1996. It has been around for more then 24 years. It has the dedicated
+              team of various developers and technicians who always look to match the client's expectations. With the kind of expertise and commitment it has become one of the most popular computer networking companies. The team accepts new challenges and
+              do every task with enthusiasm. The hunger for the excellence has made Lantech Infocom one of the best computer networking companies in Ahmedabad.<br><br>Click to explore our work.</p>
       <p><a href="#clients" class="w3-button w3-black"><i class="fa fa-th"></i>Our Clients</a></p>
     </div>
     <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+      <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
     </div>
   </div>
 </div>
 
 <!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px" id="services">
-  <h3 class="w3-center">Our Services</h3>
+<div class="w3-container" style="padding:24 16px" id="services">
+  <h3 class="w3-center">Computer Networking Services</h3>
   <p class="w3-center w3-large">Things We Are Good At</p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcoJcd3MQbJjMjOTHdImFJnwHb2EHX-5DpKTcyuVouPHS53awc" alt="System Integration" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/system_integre.jpg" alt="System Integration" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>System Integration</h3>
           <p class="w3-opacity">System Integration Services</p>
@@ -101,8 +108,8 @@
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUj3pqAnDZw3Wmr6FFC-obpvFSqX5qD2Fcp_Yu6iY6293tve3r" alt="Structured Cabling" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/network_audit.jpg" alt="Structured Cabling" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>Structured Cabling</h3>
           <p class="w3-opacity">Structured Cabling</p>
@@ -113,8 +120,8 @@
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTNZy4C0I2hN2MX4yIFF0xu_iZKxdEp88YfAA2VFkb2xTG1tY03" alt="LAN WAN" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/lan_implement.jpg" alt="LAN WAN" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>LAN/WAN Implementation</h3>
           <p class="w3-opacity">L/W Implementation</p>
@@ -124,8 +131,8 @@
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqkvGlT2AjPVma-j-kNhKhSBVtlCFgfLoGVmY5mbhwBfWU5Zyu" alt="LAN Audit" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/lan_audit.jpg" alt="LAN Audit" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>LAN Audit</h3>
           <p class="w3-opacity">LAN Audit</p>
@@ -138,8 +145,8 @@
 
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://www.cctvkits.co.uk/images/blog/12/troubleshooting-web-application-automation.jpg" alt="Troubleshooting" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/troubleshooting.jpg" alt="Troubleshooting" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>Troubleshooting and Maintanance</h3>
           <p class="w3-opacity">Troubleshooting and Maintanance</p>
@@ -149,8 +156,8 @@
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMnJRpe0uTUi1UF8bgetp1joF7x4pvvmGE5v_CnLrZ9djCzZlE" alt="Migration" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/migration.jpg" alt="Migration" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>Migration to 1/10 Gigabit Data Network</h3>
           <p class="w3-opacity">Network Migration</p>
@@ -160,8 +167,8 @@
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRs2_m1S4Mq8ciIGYeooz4L1BLpTY5L7wTnfV2y5y8Z5ibL5QX5" alt="Certification" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/certification.jpg" alt="Certification" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>Site Certification</h3>
           <p class="w3-opacity">Site Certification</p>
@@ -171,8 +178,8 @@
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUj3pqAnDZw3Wmr6FFC-obpvFSqX5qD2Fcp_Yu6iY6293tve3r" alt="Networking Audit" style="width:100%">
+      <div class="w3-card w3-hover-shadow">
+        <img src="../assets/network_audit.jpg" alt="Networking Audit" style="width:100%; height:207px;">
         <div class="w3-container">
           <h3>Industrial Audit Report</h3>
           <p class="w3-opacity">Industrial Audit Report</p>
@@ -392,55 +399,58 @@
 </div>
 
 <!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="packages">
-  <h3>Packages</h3>
-  <p class="w3-large">Choose a package plan that fits your needs.</p>
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="oservices">
+  <h3>Services Other Than Computer Networking</h3>
+  <p class="w3-large">Have a look at our services.</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>Value</b> 1</li>
-        <li class="w3-padding-16"><b>Value</b> 2</li>
-        <li class="w3-padding-16"><b>Value</b> 3</li>
-        <li class="w3-padding-16"><b>Value</b> 4</li>
+        <li class="w3-black w3-xlarge w3-padding-32">SEO Services</li>
+        <li class="w3-padding-16"><b>Local SEO</b></li>
+        <li class="w3-padding-16"><b>Ecommerce SEO</b></li>
+        <li class="w3-padding-16"><b>Javascript SEO</b></li>
+        <li class="w3-padding-16"><b>White Label SEO</b></li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">Value</h2>
-          <span class="w3-opacity">per month</span>
+          <h2 class="w3-wide">$12</h2>
+          <span class="w3-opacity">per hour</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <router-link to="/seo-services/">
+          <button class="w3-button w3-black w3-padding-large">Know More</button></router-link>
         </li>
       </ul>
     </div>
     <div class="w3-third">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
-        <li class="w3-padding-16"><b>Value</b> 1</li>
-        <li class="w3-padding-16"><b>Value</b> 2</li>
-        <li class="w3-padding-16"><b>Value</b> 3</li>
-        <li class="w3-padding-16"><b>Value</b> 4</li>
+        <li class="w3-red w3-xlarge w3-padding-48">Javascript Development</li>
+        <li class="w3-padding-16" style="color: red;"><b>Node.js Development</b></li>
+        <li class="w3-padding-16" style="color: red;"><b>Vue.js Development</b></li>
+        <li class="w3-padding-16" style="color: red;"><b>React.js Development</b></li>
+        <li class="w3-padding-16" style="color: red;"><b>Angular Development</b></li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">Value</h2>
-          <span class="w3-opacity">per month</span>
+          <h2 class="w3-wide">$20</h2>
+          <span class="w3-opacity">per hour</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <router-link to="/javascript-development-services/">
+          <button class="w3-button w3-black w3-padding-large w3-hover-red">Know More</button></router-link>
         </li>
       </ul>
     </div>
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>Value</b> 1</li>
-        <li class="w3-padding-16"><b>Value</b> 2</li>
-        <li class="w3-padding-16"><b>Value</b> 3</li>
-        <li class="w3-padding-16"><b>Value</b> 4</li>
+        <li class="w3-black w3-xlarge w3-padding-32">Mobile App Development</li>
+        <li class="w3-padding-16"><b>Ionic Development</b></li>
+        <li class="w3-padding-16"><b>Phonegap Development</b></li>
+        <li class="w3-padding-16"><b>React-Native Development</b></li>
+        <li class="w3-padding-16"><b>Vue Native Development</b></li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">Value</h2>
-          <span class="w3-opacity">per month</span>
+          <h2 class="w3-wide">$16</h2>
+          <span class="w3-opacity">per hour</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+          <router-link to="/mobile-app-development/">
+          <button class="w3-button w3-black w3-padding-large">Know More</button></router-link>
         </li>
       </ul>
     </div>
@@ -453,8 +463,8 @@
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ahmedabad, IN</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 9825026049</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: jayesh@lantechinfocom.co.in</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 9426527612</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: aashay@lantechinfocom.co.in</p>
     <br>
       <p><input class="w3-input w3-border" v-model="networkmigra" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-border" v-model="email" type="text" placeholder="Email" required name="Email"></p>
