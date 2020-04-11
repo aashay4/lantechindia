@@ -347,16 +347,16 @@
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="http://www.lantechinfocom.com/wp-content/uploads/2018/10/cropped-boi-logo-3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <img src="../assets/boi.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="http://www.lantechinfocom.com/wp-content/uploads/2018/10/cropped-electrothumb-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+      <img src="../assets/electro.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="http://www.lantechinfocom.com/wp-content/uploads/2018/10/cropped-hitachi.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <img src="../assets/hitachi.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="http://www.lantechinfocom.com/wp-content/uploads/2018/10/cropped-amul-dairy-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+      <img src="../assets/amul.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
     </div>
   </div>
 </div>
