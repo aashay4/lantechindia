@@ -46,7 +46,6 @@
     </div>
   </header>
 
-
 <!-- About Section -->
 <div class="w3-container" style="padding:16px" id="about">
   <h3 class="w3-center">ABOUT THE COMPANY</h3>
@@ -509,7 +508,7 @@ export default {
          {name: 'description', content: 'We provide computer networking services. Lantech Infocom is a well-known computer networking company which has done around 500 computer networking projects.'}
        ],
        link: [
-      {rel: 'canonical', href: 'http://lantechinfocom.co.in/'}
+      {rel: 'canonical', href: 'https://lantechinfocom.co.in/'}
     ]
      },
   name: 'home',
@@ -536,8 +535,8 @@ export default {
       })
       .catch(err => alert(err.message));
     }
+    }
   }
-}
 </script>
 <style scoped>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
