@@ -1,38 +1,6 @@
 <template>
   <div>
-  <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <router-link to="/"><a class="w3-bar-item w3-button w3-wide"><img src="../assets/logo.png" style="height:37px; width:37px"></a></router-link>
-    <!-- Right-sided navbar links -->
-    <div>
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" v-on:click='isclose = !isclose'>
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-    <div class="">
-      <a href="tel:9426527612" class="w3-bar-item w3-button w3-right"><i class="fa fa-phone fa fa-phone fa-fw w3-xxlarge"></i> CALL NOW</a>
-    </div>
-    <div class="w3-hide-small" style="margin-left: 20%">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#services" class="w3-bar-item w3-button"><i class="fa fa-server"></i> NETWORKING SERVICES</a>
-      <a href="#clients" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CLIENTS</a>
-      <a href="#oservices" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> OTHER SERVICES</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-    </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" v-show="isclose" id="mySidebar">
-  <a href="javascript:void(0)" v-on:click='isclose = !isclose' class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
-  <a href="#clients" onclick="w3_close()" class="w3-bar-item w3-button">CLIENTS</a>
-  <a href="#oservices" onclick="w3_close()" class="w3-bar-item w3-button">OTHER SERVICES</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-  <a href="tel:9426527612" onclick="w3_close()" class="w3-bar-item w3-button">Call Now</a>
-</nav>
+  <header-app></header-app>
 
 <!-- Header with full-height image -->
 
@@ -398,106 +366,23 @@
 </div>
 
 <!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="oservices">
-  <h3>Services Other Than Computer Networking</h3>
-  <p class="w3-large">Have a look at our services.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">SEO Services</li>
-        <li class="w3-padding-16"><b>Local SEO</b></li>
-        <li class="w3-padding-16"><b>Ecommerce SEO</b></li>
-        <li class="w3-padding-16"><b>Javascript SEO</b></li>
-        <li class="w3-padding-16"><b>White Label SEO</b></li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$12</h2>
-          <span class="w3-opacity">per hour</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <router-link to="/seo-services/">
-          <button class="w3-button w3-black w3-padding-large">Know More</button></router-link>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-48">Javascript Development</li>
-        <li class="w3-padding-16" style="color: red;"><b>Node.js Development</b></li>
-        <li class="w3-padding-16" style="color: red;"><b>Vue.js Development</b></li>
-        <li class="w3-padding-16" style="color: red;"><b>React.js Development</b></li>
-        <li class="w3-padding-16" style="color: red;"><b>Angular Development</b></li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$20</h2>
-          <span class="w3-opacity">per hour</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <router-link to="/javascript-development-services/">
-          <button class="w3-button w3-black w3-padding-large w3-hover-red">Know More</button></router-link>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-third w3-section">
-      <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Mobile App Development</li>
-        <li class="w3-padding-16"><b>Ionic Development</b></li>
-        <li class="w3-padding-16"><b>Phonegap Development</b></li>
-        <li class="w3-padding-16"><b>React-Native Development</b></li>
-        <li class="w3-padding-16"><b>Vue Native Development</b></li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$16</h2>
-          <span class="w3-opacity">per hour</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <router-link to="/mobile-app-development/">
-          <button class="w3-button w3-black w3-padding-large">Know More</button></router-link>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
+<pricesection id="oservices"></pricesection>
 
 <!-- Contact Section -->
-<div id="contact" class="w3-container w3-light-grey" style="padding:128px 16px">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ahmedabad, IN</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 9426527612</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: aashay@lantechinfocom.co.in</p>
-    <br>
-      <p><input class="w3-input w3-border" v-model="networkmigra" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" v-model="email" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" v-model="question" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" v-model="phone" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button @click="industrial()" class="w3-button w3-black">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-
-    <!-- Image of location/map -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14687.892060568312!2d72.5715469!3d23.024763!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24502f086901e018!2sLantech%20Infocom!5e0!3m2!1sen!2sin!4v1577540870562!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-  </div>
-</div>
+<contactsection id="contact"></contactsection>
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-</footer>
+<footer-app></footer-app>
 </div>
 </template>
 
 <script>
 // @ is an alias to /src
-//import HelloWorld from '@/components/HelloWorld.vue'
+import footer from '@/components/footer.vue'
+import contactsection from '@/components/contactsection.vue'
+import pricesection from '@/components/pricesection.vue'
+import header from '@/components/header.vue'
+
 import { createNote }  from '../repository'
 export default {
   metaInfo: {
@@ -513,6 +398,10 @@ export default {
      },
   name: 'home',
   components: {
+    'footer-app': footer,
+    'contactsection': contactsection,
+    'pricesection': pricesection,
+    'header-app': header
   },
     data() {
       return {
