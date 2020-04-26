@@ -27,12 +27,6 @@
 import { createNote }  from '../repository'
 
 export default {
-  metaInfo: {
-       link: [
-      {rel: 'canonical', href: 'https://lantechinfocom.co.in/contact-us/'}
-    ]
-     },
-
   data() {
     return {
       networkmigra: '',
