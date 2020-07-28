@@ -49,13 +49,13 @@ With mobile apps, you can keep your customers updated about the latest news, upd
         <p><a href="#clients" class="w3-button w3-black"><i class="fa fa-th"></i>Our Clients</a></p>
       </div>
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/android.png" alt="Buildings" width="700" height="394">
       </div>
     </div>
 
     <div class="w3-row-padding">
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/ios.png" alt="Buildings" width="700" height="394">
       </div>
       <div class="w3-col m6">
         <h3>IOS App Development</h3>
@@ -73,13 +73,13 @@ With mobile apps, you can keep your customers updated about the latest news, upd
         <p><a href="#clients" class="w3-button w3-black"><i class="fa fa-th"></i>Our Clients</a></p>
       </div>
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/reactnative.png" alt="Buildings" width="700" height="394">
       </div>
     </div>
 
     <div class="w3-row-padding">
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/ionic.png" alt="Buildings" width="700" height="394">
       </div>
       <div class="w3-col m6">
         <h3>Ionic App Development</h3>

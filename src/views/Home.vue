@@ -5,14 +5,24 @@
 <!-- Header with full-height image -->
 
 
-  <header class="w3-display-container w3-wide" id="home">
-    <img class="" src="../assets/Server-Room.jpg" alt="Lantech Infocom" width="100%" height="650">
-    <div class="w3-display-left w3-padding-large">
-      <h1 class="w3-text-white">Lantech Infocom</h1>
-      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Best Computer Networking Company</b></h1>
-      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('contact4').style.display='block'">Contact Us</button></h6>
-    </div>
-  </header>
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <img class="" src="../assets/mac.jpg" alt="Lantech Infocom" width="100%" height="575px;">
+<div class="w3-display-left w3-text-white" style="padding:48px">
+  <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+  <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+  <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+  <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+</div>
+<div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</div>
+</header>
 
 <!-- About Section -->
 <div class="w3-container" style="padding:16px" id="about">

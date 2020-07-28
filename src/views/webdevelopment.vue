@@ -63,13 +63,13 @@
         <p><a href="#clients" class="w3-button w3-black"><i class="fa fa-th"></i>Our Clients</a></p>
       </div>
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/nodejs.jpg" alt="Buildings" width="700" height="394">
       </div>
     </div>
 
     <div class="w3-row-padding">
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/vuejs.png" alt="Buildings" width="700" height="394">
       </div>
 
       <div class="w3-col m6">
@@ -88,15 +88,14 @@
         <p><a href="#clients" class="w3-button w3-black"><i class="fa fa-th"></i>Our Clients</a></p>
       </div>
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/AngularJS.png" alt="Buildings" width="700" height="394">
       </div>
     </div>
 
     <div class="w3-row-padding">
       <div class="w3-col m6">
-        <img class="w3-image w3-round-large w3-hide-small" src="../assets/network-image.jpg" alt="Buildings" width="700" height="394">
+        <img class="w3-image w3-round-large w3-hide-small" src="../assets/reactjs.png" alt="Buildings" width="700" height="394">
       </div>
-
       <div class="w3-col m6">
         <h3>React.js Development</h3>
         <p>Powered by Facebook, React.js is one of the most popular Javascript front-end frameworks in recent times. It is simpler than Angular and used to build user interfaces. The internal communication between components makes react.js simple. React.js boosts the productivity of an application and makes it easy for the developer to maintain an application. Since it is powered by Facebook, it guarantees stable code and scalability. We use Node.js and Express.js as the back-end frameworks with React.js which makes it MERN stack.<br><br>Click to explore our work.</p>
