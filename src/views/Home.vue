@@ -319,18 +319,17 @@
 
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="clients">
-  <h3 class="w3-center">OUR Clients</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
+  <h3 class="w3-center">OUR Premium Clients</h3>
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="../assets/boi.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <img src="../assets/boi1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
     </div>
     <div class="w3-col l3 m6">
       <img src="../assets/electro.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="../assets/hitachi.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+      <img src="../assets/hitachi1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
     </div>
     <div class="w3-col l3 m6">
       <img src="../assets/amul.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
