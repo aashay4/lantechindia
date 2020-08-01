@@ -15,12 +15,8 @@
   <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
 </div>
 <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <a href="https://www.facebook.com/lantechinfocom"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/company/68680648/" class="w3-margin-left"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 </div>
 </header>
 
@@ -395,11 +391,11 @@ import header from '@/components/header.vue'
 import { createNote }  from '../repository'
 export default {
   metaInfo: {
-       title: 'Computer networking company | Contact for networking services',
+       title: 'Computer networking company | Lantech Infocom',
        meta: [
 
          {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-         {name: 'description', content: 'We provide computer networking services. Lantech Infocom is a well-known computer networking company which has done around 500 computer networking projects.'}
+         {name: 'description', content: 'Lantech Infocom provides computer networking services. It is a well-known computer networking company which has done around 500 computer networking projects.'}
        ],
        link: [
       {rel: 'canonical', href: 'https://lantechinfocom.co.in/'}
