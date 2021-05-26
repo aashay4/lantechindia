@@ -179,7 +179,7 @@ export default {
          {name: 'description', content: 'Learn about configuring layer 3 switch.'},
          {property: 'og:type', content: 'article'},
          {property: 'og:image', content: 'https://lantechinfocom.co.in/img/network-image.28d6d687.jpg'},
-         {property: 'og:title', content: 'Mother dairy plant, Ahmedabad - Cisco-catalyst 4500 series layer-3'}
+         {property: 'og:title', content: 'AmulFed Dairy plant, Ahmedabad - Cisco-catalyst 4500 series layer-3'}
        ],
        link: [
       {rel: 'canonical', href: 'https://lantechinfocom.co.in/configure-layer-3-switch/'}
