@@ -7,7 +7,7 @@
 
 <!-- Header with full-height image -->
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <img class="" src="../assets/mac.jpg" alt="Lantech Infocom" width="100%" height="575px;">
+ <img style="width: 100%; height: 650px;" src="../assets/Server-Room.jpg" alt="Lantech Infocom">
 <div class="w3-display-left w3-text-white" style="padding:48px">
   <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
   <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
@@ -442,6 +442,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
+  background-image: url("../assets/mac.jpg");
   min-height: 100%;
 }
 .w3-bar .w3-button {

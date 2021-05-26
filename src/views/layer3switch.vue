@@ -8,7 +8,6 @@
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>How to configure layer 3 switch?</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Aasshey</strong>
           <hr>
           <video width="100%" height="500" controls>
   <source src="../assets/l3-switch.mp4" type="video/mp4">
@@ -17,7 +16,7 @@
 </video>
 <p>Configuring a layer-3 switch is quite complicated at first. But once you understand the configuration of Virtual LAN then it gets really easy.</p>
 <h2>Why did we use Layer-3 switch?</h2>
-<p>Our client was facing slow data transmission speed mostly because of too many requests and traffic on the LAN. They had over one thousand systems connected with the Layer-2 switch and several networks. When a user sent a request to X network, the request was used to broadcast on each network, this eventually increased network traffic and eventually slowed down data transmission speed.</p>
+<p>Our client was facing slow data transmission speed mostly because of too many requests and traffic on the LAN. They had over one thousand systems connected with the Layer-2 switch and several networks. When a user sent a request to X network, the layer-2 switch broadcasted the request on each network, this increased network traffic and eventually slowed down data transmission speed.</p>
 <p>We recommended replacing layer-2 switches with layer-3 switches just to reduce network traffic. A Layer-3 switch determines for which network a request is to be sent and then broadcasts that request to that particular network. Unlike layer-2 switch which broadcasted requests to all the networks.</p>
 <h2>Configure layer-3 switch</h2>
 <b>First, determine all the networks.</b>
