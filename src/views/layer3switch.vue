@@ -178,7 +178,7 @@ export default {
 
          {name: 'viewport', content: 'width=device-width, initial-scale=1'},
          {name: 'description', content: 'Learn about configuring layer 3 switch.'},
-         {property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/dev-blog-2503f.appspot.com/o/postsStorage%2F-KxXdvvLqDHBcxdUfLgn%2Fonfleck?alt=media&token=24a9bf5b-dce2-46e8-b175-fb63f7501c98'}
+         {property: 'og:image', content: 'https://lantechinfocom.co.in/img/network_audit.2e2deafb.jpg'}
        ],
        link: [
       {rel: 'canonical', href: 'https://lantechinfocom.co.in/configure-layer-3-switch/'}
