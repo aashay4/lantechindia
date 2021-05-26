@@ -178,7 +178,7 @@ export default {
 
          {name: 'viewport', content: 'width=device-width, initial-scale=1'},
          {name: 'description', content: 'Learn about configuring layer 3 switch.'},
-         {property: 'og:type', content: 'article'}
+         {property: 'og:type', content: 'article'},
          {property: 'og:image', content: 'https://lantechinfocom.co.in/img/network_audit.2e2deafb.jpg'}
        ],
        link: [
