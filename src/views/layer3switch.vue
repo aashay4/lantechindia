@@ -183,7 +183,7 @@ export default {
          {property: 'og:title', content: 'Mother dairy plant, Ahmedabad - Cisco-catalyst 4500 series layer-3'}
        ],
        link: [
-      {rel: 'canonical', href: 'https://lantechinfocom.co.in/img/network-image.28d6d687.jpg'}
+      {rel: 'canonical', href: 'https://lantechinfocom.co.in/configure-layer-3-switch/'}
     ]
      },
   components: {
