@@ -28,6 +28,10 @@ const routes = [
   {
     path: '/mobile-app-development-services/',
     component: () => import(/* webpackChunkName: "about" */ '../views/appdevelopment.vue')
+  },
+  {
+    path: '/configure-layer-3-switch/',
+    component: () => import(/* webpackChunkName: "about" */ '../views/layer3switch.vue')
   }
 ]
 
