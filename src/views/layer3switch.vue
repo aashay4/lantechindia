@@ -16,8 +16,8 @@
 </video>
 <p>Configuring a layer-3 switch is quite complicated at first. But once you understand the configuration of Virtual LAN then it gets really easy.</p>
 <h2>Why did we use Layer-3 switch?</h2>
-<p>Our client was facing slow data transmission speed mostly because of too many requests and traffic on the LAN. They had over one thousand systems connected with the Layer-2 switch and several networks. When a user sent a request to X network, the layer-2 switch broadcasted the request on each network, this increased network traffic and eventually slowed down data transmission speed.</p>
-<p>We recommended replacing layer-2 switches with layer-3 switches just to reduce network traffic. A Layer-3 switch determines for which network a request is to be sent and then broadcasts that request to that particular network. Unlike layer-2 switch which broadcasted requests to all the networks.</p>
+<p>Our client was facing slow data transmission speed mostly because of too many requests and traffic on the LAN. They had over one thousand systems connected with the Layer-2 switch and several networks. When a user sent a request to X network, the layer-2 switch broadcast the request on each network, this increased network traffic and eventually slowed down data transmission speed.</p>
+<p>We recommended replacing layer-2 switches with layer-3 switches just to reduce network traffic. A Layer-3 switch determines for which network a request is to be sent and then broadcasts that request to that particular network. Unlike layer-2 switch which broadcast requests to all the networks.</p>
 <h2>Configure layer-3 switch</h2>
 <b>First, determine all the networks.</b>
 <p>For a basic configuration switch, three interfaces are required. One is a switch's default route, the second is for data VLAN, and the third one for voice VLAN.</p>
