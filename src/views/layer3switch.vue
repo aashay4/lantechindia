@@ -182,7 +182,7 @@ export default {
          {property: 'og:image', content: 'https://lantechinfocom.co.in/img/network_audit.2e2deafb.jpg'}
        ],
        link: [
-      {rel: 'canonical', href: 'https://lantechinfocom.co.in/configure-layer-3-switch/'}
+      {rel: 'canonical', href: 'https://lantechinfocom.co.in/img/network-image.28d6d687.jpg'}
     ]
      },
   components: {
