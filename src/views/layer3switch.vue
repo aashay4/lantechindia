@@ -10,8 +10,8 @@
           <h1>How to configure layer 3 switch?</h1>
           <hr>
           <video width="100%" height="500" controls>
-  <source src="../assets/l3-switch.mp4" type="video/mp4">
-  <source src="../assets/l3-switch.mp4" type="video/ogg">
+  <source src="../assets/l3-switch-final.mp4" type="video/mp4">
+  <source src="../assets/l3-switch-final.mp4" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 <p>Configuring a layer-3 switch is quite complicated at first. But once you understand the configuration of Virtual LAN then it gets really easy.</p>
