@@ -325,9 +325,6 @@
       <img src="../assets/electro.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
     </div>
     <div class="w3-col l3 m6">
-      <img src="../assets/hitachi1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
-    </div>
-    <div class="w3-col l3 m6">
       <img src="../assets/amul.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
     </div>
   </div>
