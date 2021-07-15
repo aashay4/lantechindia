@@ -12,6 +12,26 @@ const routes = [
     component: Home
   },
   {
+    path: '/best-javascript-frameworks/',
+    name: 'bestjavascriptframeworks',
+    component: () => import(/* webpackChunkName: "about" */ '../views/bestjavascriptframeworks.vue')
+  },
+  {
+    path: '/best-backend-frameworks/',
+    name: 'backendframeworks',
+    component: () => import(/* webpackChunkName: "about" */ '../views/backendframeworks.vue')
+  },
+  {
+    path: '/trending-seo-techniques/',
+    name: 'trendingseotechniques',
+    component: () => import(/* webpackChunkName: "about" */ '../views/seotechniques.vue')
+  },
+  {
+    path: '/off-page-seo-techniques/',
+    name: 'offpageseo',
+    component: () => import(/* webpackChunkName: "about" */ '../views/offpagetechniques.vue')
+  },
+  {
     path: '/seo-services/',
     name: 'seoservices',
     component: () => import(/* webpackChunkName: "about" */ '../views/seoservices.vue')
