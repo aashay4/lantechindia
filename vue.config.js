@@ -11,7 +11,7 @@ module.exports = {
          // Absolute path to compiled SPA
          path.resolve(__dirname, 'dist'),
          // List of routes to prerender
-         [ '/', '/seo-services', '/contact-us', '/web-development-services', '/mobile-app-development-services', '/configure-layer-3-switch', '/best-javascript-frameworks', '/off-page-seo-techniques', '/trending-seo-techniques', '/best-backend-frameworks'],
+         [ '/', '/seo-services', '/contact-us', '/web-development-services', '/mobile-app-development-services', '/configure-layer-3-switch', '/best-javascript-frameworks', '/off-page-seo-techniques', '/trending-seo-techniques', '/best-backend-frameworks', '/best-node-js-packages', '/pros-cons-vue-js'],
        ),
      ]
    }

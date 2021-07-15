@@ -52,6 +52,14 @@ const routes = [
   {
     path: '/configure-layer-3-switch/',
     component: () => import(/* webpackChunkName: "about" */ '../views/layer3switch.vue')
+  },
+  {
+    path: '/best-node-js-packages/',
+    component: () => import(/* webpackChunkName: "about" */ '../views/nodejspackages.vue')
+  },
+  {
+    path: '/pros-cons-vue-js/',
+    component: () => import(/* webpackChunkName: "about" */ '../views/aboutvue.vue')
   }
 ]
 
